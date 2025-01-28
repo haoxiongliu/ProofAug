@@ -1,0 +1,7 @@
+# project specific
+models/*
+output/*
+play/*
+
+# vscode
+.vscode/*

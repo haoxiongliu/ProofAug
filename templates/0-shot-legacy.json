@@ -1,0 +1,7 @@
+{
+    "description": "A zero shot version of few-shot.json.",
+    "system": "",
+    "user": "```isabelle\n(* Informal statement:\n{xi}\n\nInformal proof:\n{yi} *)\n{xf}\n{yf_p}",
+    "assistant": "{yf_c}\n```\n\n",
+    "stop": ["```", "\ntheorem", "\nend", "\nlemma", "\n(* Informal statement"]
+}

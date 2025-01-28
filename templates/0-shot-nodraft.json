@@ -1,0 +1,7 @@
+{
+    "description": "A zero shot version of few-shot-nodraft.json, in completion mode.",
+    "system": "",
+    "user": "Below is a complete proof of a statement in Isabelle/Isar.\n```isabelle\n{xf}\n{yf_p}",
+    "assistant": "{yf_c}\n```\n\n",
+    "stop": ["```", "\ntheorem", "\nend", "\nlemma", "\n(* Informal statement"]
+}

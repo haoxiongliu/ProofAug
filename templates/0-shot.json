@@ -1,0 +1,7 @@
+{
+    "description": "A zero shot version of comple.json, with the task description removed.",
+    "system": "",
+    "user": "Below is a complete proof of a statement in Isabelle/Isar, translated from the informal proof.\n```isabelle\n(* Informal statement:\n{xi}\n\nInformal proof:\n{yi} *)\n{xf}\n{yf_p}",
+    "assistant": "{yf_c}\n```\n\n",
+    "stop": ["```", "\ntheorem", "\nend", "\nlemma", "\n(* Informal statement"]
+}

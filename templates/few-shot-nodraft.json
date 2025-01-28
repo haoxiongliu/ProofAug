@@ -1,0 +1,7 @@
+{
+    "description": "Using comple_sep=concat dsp, need yf_c, yf_p and ps. dsp_ct_c is in fact comple_wops",
+    "system": "",
+    "user": "Please complete the following Isabelle proof.\n```isabelle\n{xf}\n{yf_p}",
+    "assistant": "{yf_c}\n```\n\n",
+    "stop": ["```", "\ntheorem", "\nend", "\nlemma", "\n(* Informal statement"]
+}
