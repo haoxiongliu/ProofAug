@@ -4,14 +4,8 @@ This repo is the official implementation of the paper "Efficient Neural Theorem 
 
 ## Preparations
 ### PISA Environment Setup
-To run ProofAug, please first install Isabelle and run the PISA client. Compile PISA from the code we provide to make sure the PISA setup is the same with us. You need to place the following content in \$IsabelleHome/src/HOL/Examples/InterComplex.thy :
-```
-theory InterComplex
-imports HOL.HOL Complex_Main "HOL-Library.Code_Target_Numeral" "HOL-Library.Sum_of_Squares" "HOL-Computational_Algebra.Computational_Algebra" "HOL-Number_Theory.Number_Theory"
-begin
+To run ProofAug, please first install Isabelle and run the PISA client. Compile PISA from the code we provide to make sure the PISA setup is the same with us. 
 
-end
-```
 Then, modify all /home/user/... paths in the repository to the corresponding Isabelle paths of yours.
 
 
