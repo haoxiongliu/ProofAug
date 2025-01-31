@@ -1,10 +1,10 @@
 # ProofAug
 
-This repo is the official implementation of the paper "Efficient Neural Theorem Proving via Iterative Question Composing".
+This repo implements the ProofAug method introduced in our work ["Efficient Neural Theorem Proving via Iterative Question Composing"](https://arxiv.org/abs/2501.18310).
 
 ## Preparations
 ### PISA Environment Setup
-To run ProofAug, please first install Isabelle and run the PISA client. Compile PISA from the code we provide to make sure the PISA setup is the same with us. 
+To run ProofAug, please first install Isabelle and run the PISA client. Follow [this repo](https://github.com/haoxiongliu/Portal-to-ISAbelle/tree/dev_lhx) to install Isabelle and compile PISA to make sure the PISA setup is the same with us. 
 
 Then, modify all /home/user/... paths in the repository to the corresponding Isabelle paths of yours.
 
