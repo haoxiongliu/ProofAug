@@ -2,6 +2,9 @@
 
 This repo implements the ProofAug method introduced in our work ["Efficient Neural Theorem Proving via Fine-grained Proof Structure Analysis"](https://arxiv.org/abs/2501.18310). We achieve a pass rate of 66.0% on miniF2F-test using Isabelle, setting a new state-of-the-art.
 
+
+![flow](figures/flow_0127_v4.png)
+
 ## Preparations
 ### PISA Environment Setup
 To run ProofAug, please first install Isabelle and run the PISA client. Follow [this repo](https://github.com/haoxiongliu/Portal-to-ISAbelle/tree/dev_lhx) to install Isabelle and compile PISA to make sure the PISA setup is the same with us. 
