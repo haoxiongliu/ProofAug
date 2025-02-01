@@ -1,6 +1,6 @@
 # ProofAug
 
-This repo implements the ProofAug method introduced in our work ["Efficient Neural Theorem Proving via Iterative Question Composing"](https://arxiv.org/abs/2501.18310).
+This repo implements the ProofAug method introduced in our work ["Efficient Neural Theorem Proving via Fine-grained Proof Structure Analysis"](https://arxiv.org/abs/2501.18310). We achieve a pass rate of 66.0% on miniF2F-test using Isabelle, setting a new state-of-the-art.
 
 ## Preparations
 ### PISA Environment Setup
