@@ -9,14 +9,15 @@ This repo implements the ProofAug method introduced in our work ["Efficient Neur
 ### PISA Environment Setup
 To run ProofAug, please first install Isabelle and run the PISA client. Follow [this repo](https://github.com/haoxiongliu/Portal-to-ISAbelle/tree/dev_lhx) to install Isabelle and compile PISA to make sure the PISA setup is the same with us. 
 
-Then, modify all /home/user/... paths in the repository to the corresponding Isabelle paths of yours.
-
 
 ### Python Environment Setup
 Python>=3.11 is needed to run our code. Install the dependencies by
 ```bash
 pip install -r requirements.txt
 ```
+
+Then, modify all /home/user/... paths in this repository to the corresponding Isabelle paths of yours.
+
 
 ### Prepare an LLM service
 You can start a service of deepseek-math-7b-base on localhost:8000 by vllm:
