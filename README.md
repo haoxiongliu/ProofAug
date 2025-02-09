@@ -4,9 +4,8 @@
 
 
 This repo implements the ProofAug method introduced in our work ["Efficient Neural Theorem Proving via Fine-grained Proof Structure Analysis"](https://arxiv.org/abs/2501.18310). We achieve a pass rate of 66.0% on miniF2F-test in 2100 attempts using Isabelle, setting a new state of the art.
-
-
-![flow](figures/flow_0127_v4.png)
+![performance](figures/comparison.png)
+<!-- ![flow](figures/flow_0127_v4.png) -->
 
 ## Preparations
 ### PISA Environment Setup
