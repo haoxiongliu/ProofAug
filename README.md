@@ -1,5 +1,8 @@
 # ProofAug
 
+[![Homepage](https://img.shields.io/badge/Homepage-Visit-blue)](https://haoxiongliu.github.io/ProofAugHomepage/)
+
+
 This repo implements the ProofAug method introduced in our work ["Efficient Neural Theorem Proving via Fine-grained Proof Structure Analysis"](https://arxiv.org/abs/2501.18310). We achieve a pass rate of 66.0% on miniF2F-test in 2100 attempts using Isabelle, setting a new state of the art.
 
 
