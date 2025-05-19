@@ -2,6 +2,12 @@
 models/*
 output/*
 play/*
+play.sh
+logs/*
+*.log
+
 
 # vscode
 .vscode/*
+**/__pycache__/**
+
