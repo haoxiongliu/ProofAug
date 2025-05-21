@@ -1,0 +1,9 @@
+[submodule "lean_src/mathlib4"]
+	path = lean_src/mathlib4
+	url = https://github.com/haoxiongliu/mathlib4.git
+	branch = dev-419-rc2
+
+[submodule "lean_src/repl"]
+	path = lean_src/repl
+	url = https://github.com/haoxiongliu/repl.git
+	branch = linear-viv

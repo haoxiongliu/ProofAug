@@ -1,8 +1,4 @@
 # ProofAug in Isabelle
-We achieve a pass rate of 66.0% on miniF2F-test in 2100 attempts using Isabelle, setting a new state of the art.
-<!-- ![performance](figures/comparison.png) -->
-![flow](figures/analysis_ATP.png)
-
 ## Preparations
 ### PISA Environment Setup
 To run ProofAug, please first install Isabelle and run the PISA client. Follow [this repo](https://github.com/haoxiongliu/Portal-to-ISAbelle/tree/dev_lhx) to install Isabelle and compile PISA to make sure the PISA setup is the same with us. 

@@ -1,0 +1,7 @@
+{
+    "description": "The prompt template used in kimina huggingface repo. The assistant field indicates the response of kimina-prover.",
+    "system": "You are an expert in mathematics and Lean 4.",
+    "user": "Think about and solve the following problem step by step in Lean 4.\n# Problem: {problem}\n# Formal statement:\n```lean4\n{header}{formal_statement}\n```\n",
+    "assistant": "<think>\n{thinking}\n</think>\n```lean4\n{code}\n```\n",
+    "stop": []
+}
