@@ -12,7 +12,7 @@ uv pip install -r requirements.txt
 
 ## Example Script
 
-Then, run the following command to start the server:
+To evaluate Kimina-Prover-Preview-Distill-1.5B with ProofAug on the benchmark dataset for 1-shot, run:
 ```bash
 dataset="minif2f"
 model_root="AI-MO"
@@ -30,6 +30,7 @@ eval_args=(
 )
 python eval_pipeline.py "${eval_args[@]}"
 
+# ProofAug
 hammer_list=("aesop" "my_hint" "omega")
 eval_args=(
    -i datasets/$dataset.jsonl
@@ -47,6 +48,10 @@ python main.py get_cumulative_pass "results/minif2f/Kimina-Prover-Preview-Distil
 ```
 
 There are several cases where due to the bug of repl tactic mode, ProofAug finds an incorrect proof. We have manually checked that suppose we fix the repl bug, ProofAug can find the correct proof in these cases.
+
+## Use ProofAug as an module
+
+ProofAug can be applied to any whole-proof generation model. To use ProofAug as a module, prepare a full_records.jsonl file that contains the "name" field and the "full_code" field, and use "--use_existing_code" in the evaluation script and ignore the model-related arguments.
 
 
 ## Acknowledgement

@@ -279,9 +279,9 @@ def main(args):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument('-i', '--input_path', type=str, required=True)
-    parser.add_argument('-m', '--model_path', type=str, required=True)
     parser.add_argument('-o', '--output_dir', type=str, required=True)
+    parser.add_argument('-i', '--input_path', type=str, default="datasets/minif2f.jsonl")
+    parser.add_argument('-m', '--model_path', type=str, default=None)
     parser.add_argument('-s', '--split', default=None, type=str)
     parser.add_argument('-n', '--n', default=32, type=int)
     parser.add_argument('-c', '--cpu', default=24, type=int)
